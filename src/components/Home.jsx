@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
     const googleAuth = ()=>{
-        window.open("https://google-back.vercel.app/auth/google", "_self")
+        window.open("/auth/google", "_self")
     }
     return(
         <div>

@@ -12,7 +12,7 @@ function App() {
 useEffect(() => {
   const getUser = async () => {
     try {
-      const response = await axios.get("https://google-back.vercel.app/auth/exito", {
+      const response = await axios.get("/auth/exito", {
         withCredentials: true, // Esto es equivalente a 'credentials: "include"' en fetch
         headers: {
           Accept: "application/json",

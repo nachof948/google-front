@@ -2,7 +2,7 @@ import React from 'react';
 
 const Usuario = ({ userGoogle }) => {
     const cerrarSesion = () =>{
-        window.open("https://google-back.vercel.app/auth/logout", "_self")
+        window.open("/auth/logout", "_self")
     }
     return (
     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1rem", height: "100vh" }}>
