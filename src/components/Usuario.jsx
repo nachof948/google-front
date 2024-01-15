@@ -2,7 +2,7 @@ import React from 'react';
 
 const Usuario = ({ userGoogle }) => {
     const cerrarSesion = () =>{
-        window.open("/auth/logout", "_self")
+        window.open("http://localhost:4500/auth/logout", "_self")
     }
     return (
     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "1rem", height: "100vh" }}>
