@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
     const googleAuth = ()=>{
-        window.open("http://localhost:4500/auth/google", "_self")
+        window.open("https://google-back.vercel.app/auth/google", "_self")
     }
     return(
         <div>
